@@ -8,6 +8,7 @@ echo -e "\n==========从google drive下载 "202"号 权重=========="
 gdown --id '1xSjAiLwG8PD8PLzXDRCWRTDDovS_3rnU' -O 'ffe8ba44feb8eb8ec8ff6d9b17ac075e4d708beadbfa68fee5506d431bbde68e.gz'
 echo -e "\n==========从google drive下载MINIGO 权重=========="
 gdown --id '1jldbQYIfA6jZhFn2QQ6SZGnr9iIzlY8y' -O 'minigo'
+gdown --id '1Dy55qexXqGg1lAG6ozfIpFpIPuap4HWG' -O 'minigo40'
 mkdir networks && mv *.gz networks
 mkdir ~/.local/share/leela-zero
 mv leelaz_opencl_tuning  ~/.local/share/leela-zero
