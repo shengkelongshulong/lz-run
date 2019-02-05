@@ -9,7 +9,7 @@ gdown --id '1xSjAiLwG8PD8PLzXDRCWRTDDovS_3rnU' -O 'ffe8ba44feb8eb8ec8ff6d9b17ac0
 echo -e "\n==========从google drive下载MINIGO 权重=========="
 gdown --id '1jldbQYIfA6jZhFn2QQ6SZGnr9iIzlY8y' -O 'minigo'
 echo -e "\n==========从google drive下载MINIGO40B 权重=========="
-gdown --id '1f3guJqR_M70Otvihm2VdikBiyXhIjkCF' -O 'minigo.gz'
+gdown --id '1jwAumeSeKLGIjTIaYB4uxA6mCz1pFoUU' -O 'minigo40'
 mkdir networks && mv *.gz networks
 mkdir ~/.local/share/leela-zero
 mv leelaz_opencl_tuning  ~/.local/share/leela-zero
